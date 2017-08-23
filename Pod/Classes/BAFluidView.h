@@ -72,6 +72,16 @@ Changes the fill color of the wave animation
 @property (assign,nonatomic) int minAmplitude;
 
 /**
+ Changes the duration of the total duration of 1 wave from one edge of the screen to the other
+ */
+@property (assign,nonatomic) int xDuration;
+
+/**
+ Changes the duration of one full wave
+ */
+@property (assign,nonatomic) int amplitudeDuration;
+
+/**
  Notification message string for tilt animations
  */
 extern NSString * const kBAFluidViewCMMotionUpdate;
